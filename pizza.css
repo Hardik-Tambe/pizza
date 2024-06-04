@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    color:red;
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.boxes {
+    border: 5px solid white;
+    width: 16%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.namePrice {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.red {
+    color: red;
+}
+
+.order,
+.confirm-btn {
+    width: 100%;
+    background-color: rgb(247, 247, 73);
+    border: 0;
+    padding: 8px;
+    font-weight: bold;
+    margin: 3px;
+    cursor: pointer;
+}
+
+#orderTableBody{
+    text-align: center !important;
+}
+
+.quantity {
+    display: flex;
+    margin-left: 3px;
+    align-items: center;
+}
+
+.increDecreBtn {
+    background-color: rgb(247, 247, 73);
+    width: 20px;
+    height: 30px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.total-count {
+    padding: 0px 7px;
+}
+
+.confirm-btn {
+    background-color: rgb(77, 189, 77);
+}
+
+.confirmDiv {
+    display: none;
+    padding: 8px;
+}
+
+.hw {
+    height: 50px;
+    width: 50px;
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.centertable {
+    display: flex;
+    margin: 20px;
+}
+
+.w-100 {
+    width: 100px;
+}
+.cancel{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left:60px;
+    border:0px;
+}
+.edit_btn{
+    background-color: rgb(50, 50, 247);
+    color: white;
+    border: 0px;
+    padding: 8px;
+}
+.clr_btn{
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 6px;
+}
+#hide{
+    display: none;
+}
+.check,.canceled{
+    display: none;
+    background-color: rgb(50, 50, 247);
+    color:white;
+    width: 25px;
+    height: 24px;
+    margin: 0px 0 2px 25px;
+    font-size: 21px;
+}
+.none{
+    display: none;
+}
+.flexMargin{
+    display: flex;
+    margin-left: 35px;
+}
